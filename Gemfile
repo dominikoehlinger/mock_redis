@@ -10,3 +10,6 @@ gem 'overcommit', '0.53.0'
 gem 'rubocop', '0.82.0'
 
 gem 'coveralls', require: false
+
+# TODO: add this to the gemspec if it is merged to the redis-rb gem
+gem 'redis', git: 'git@github.com:dominikoehlinger/redis-rb.git'
