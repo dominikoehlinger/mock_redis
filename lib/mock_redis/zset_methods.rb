@@ -233,7 +233,7 @@ class MockRedis
       end
     end
 
-    def zmscore(key, members)
+    def zmscore(key, *members)
       with_zset_at(key) do |z|
         member_ids = z.scores.keys
         scores = z.scores.values
